@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find demo_images)/launch/realsense.launch" />
+    <include file="$(find demo_images)/launch/image_subscriber_cpp.launch" />
+    <include file="$(find demo_images)/launch/image_no_sync_subscriber.launch" />
+    <include file="$(find demo_images)/launch/image_subscriber_py.launch" />
+    <include file="$(find demo_images)/launch/rviz.launch" />
+</launch>

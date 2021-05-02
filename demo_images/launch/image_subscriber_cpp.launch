@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="demo_images" type="image_subscriber_node_cpp" name="image_subscriber_node_cpp" output="screen" />
+</launch>

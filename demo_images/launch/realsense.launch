@@ -1,0 +1,8 @@
+<launch>
+    <group ns="camera">
+        <include file="$(find realsense2_camera)/launch/includes/nodelet.launch.xml">
+            <arg name="filters" value="pointcloud" />
+            <arg name="align_depth" value="True" />
+        </include>
+    </group>
+</launch>
